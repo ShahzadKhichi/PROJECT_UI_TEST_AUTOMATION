@@ -1,0 +1,5 @@
+Username,Password,FirstName,LastName,Email
+standard_user,secret_sauce,Standard,User,standard@test.com
+locked_out_user,secret_sauce,Locked,Out,locked@test.com
+problem_user,secret_sauce,Problem,User,problem@test.com
+performance_glitch_user,secret_sauce,Performance,Glitch,performance@test.com

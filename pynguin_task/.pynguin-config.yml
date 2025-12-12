@@ -1,0 +1,28 @@
+# Pynguin configuration for safe test generation
+module_name: my_code
+output_path: tests/
+project_path: .
+seed: 42
+maximum_search_time: 30
+test_case_output: PY_TEST
+algorithm: WHOLE_SUITE
+population: 25
+chromosome_length: 10
+coverage_metrics:
+  - BRANCH
+  - LINE
+stopping: MAX_TIME
+maximum_iterations: 100
+create_coverage_report: false
+max_initial_tests: 5
+max_initial_tests_random: 3
+max_length_test_case: 5
+max_seconds_per_iteration: 5
+constant_selection_probability: 0.5
+elite_size: 1
+crossover_rate: 0.75
+mutation_rate: 0.25
+type_inference: true
+use_constant_seeding: true
+use_random_seeding: true
+min_initial_tests: 2

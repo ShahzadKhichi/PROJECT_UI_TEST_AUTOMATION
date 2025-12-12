@@ -1,0 +1,47 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Test Output
+test-output/
+allure-results/
+allure-report/
+screenshots/
+
+# Database
+*.db
+*.sqlite
+
+# Config files with passwords
+**/config.properties
+**/*.env
+
+# Redis
+dump.rdb
+
+# Excel test data (optional - if you want to exclude)
+testdata.xlsx
